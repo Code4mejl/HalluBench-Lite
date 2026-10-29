@@ -1,0 +1,2 @@
+id,evidence,claim,label,error_type
+1,"Paste the supporting evidence or context here.","Paste the claim or generated answer to evaluate.","0 or 1 (0=supported/non-hallucinated, 1=hallucinated/unsupported)","none | numerical_error | entity_substitution | contradiction | unsupported | other"

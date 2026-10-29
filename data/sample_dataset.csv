@@ -1,0 +1,37 @@
+id,evidence,claim,label,error_type
+1,"The capital of France is Paris. Paris is located in the north-central part of the country.","The capital of France is Paris.",0,none
+2,"The capital of France is Paris. Paris is located in the north-central part of the country.","The capital of France is Lyon.",1,entity_substitution
+3,"Water boils at 100 degrees Celsius at standard atmospheric pressure.","Water boils at 100°C at sea level.",0,none
+4,"Water boils at 100 degrees Celsius at standard atmospheric pressure.","Water boils at 90 degrees Celsius at standard pressure.",1,numerical_error
+5,"Albert Einstein developed the theory of relativity. He was born in Ulm, Germany in 1879.","Albert Einstein was born in 1879.",0,none
+6,"Albert Einstein developed the theory of relativity. He was born in Ulm, Germany in 1879.","Albert Einstein was born in 1889.",1,numerical_error
+7,"The Great Wall of China was built over many centuries. The most famous sections were constructed during the Ming Dynasty.","The Great Wall of China was primarily built during the Ming Dynasty.",0,none
+8,"The Great Wall of China was built over many centuries. The most famous sections were constructed during the Ming Dynasty.","The Great Wall of China was built in a single year by the Qin Dynasty.",1,contradiction
+9,"Python is a high-level programming language created by Guido van Rossum. It was first released in 1991.","Python was first released in 1991.",0,none
+10,"Python is a high-level programming language created by Guido van Rossum. It was first released in 1991.","Python was first released in 1989 by Microsoft.",1,entity_substitution
+11,"The human heart has four chambers: two atria and two ventricles. It pumps blood throughout the body.","The human heart has four chambers.",0,none
+12,"The human heart has four chambers: two atria and two ventricles. It pumps blood throughout the body.","The human heart has three chambers.",1,numerical_error
+13,"Mount Everest is the highest mountain above sea level, with a peak elevation of 8,848.86 meters.","Mount Everest is approximately 8,849 meters high.",0,none
+14,"Mount Everest is the highest mountain above sea level, with a peak elevation of 8,848.86 meters.","Mount Everest is 9,000 meters high.",1,numerical_error
+15,"The Pacific Ocean is the largest and deepest of Earth's oceanic divisions. It covers more than 30% of the Earth's surface.","The Pacific Ocean is the largest ocean on Earth.",0,none
+16,"The Pacific Ocean is the largest and deepest of Earth's oceanic divisions. It covers more than 30% of the Earth's surface.","The Atlantic Ocean is the largest ocean on Earth.",1,entity_substitution
+17,"Shakespeare wrote Romeo and Juliet around 1595. The play is a tragedy about two young star-crossed lovers.","Romeo and Juliet is a tragedy written by Shakespeare.",0,none
+18,"Shakespeare wrote Romeo and Juliet around 1595. The play is a tragedy about two young star-crossed lovers.","Romeo and Juliet is a comedy written by Christopher Marlowe.",1,contradiction
+19,"The speed of light in vacuum is approximately 299,792 kilometers per second.","Light travels at about 300,000 km/s in vacuum.",0,none
+20,"The speed of light in vacuum is approximately 299,792 kilometers per second.","The speed of light is 150,000 km/s.",1,numerical_error
+21,"Photosynthesis is the process by which green plants use sunlight to synthesize foods from carbon dioxide and water.","Photosynthesis converts carbon dioxide and water into food using sunlight.",0,none
+22,"Photosynthesis is the process by which green plants use sunlight to synthesize foods from carbon dioxide and water.","Photosynthesis is the process by which animals convert food into energy.",1,contradiction
+23,"The Eiffel Tower was completed in 1889 for the World's Fair in Paris. It was designed by Gustave Eiffel.","The Eiffel Tower was completed in 1889.",0,none
+24,"The Eiffel Tower was completed in 1889 for the World's Fair in Paris. It was designed by Gustave Eiffel.","The Eiffel Tower was completed in 1900 by Napoleon.",1,entity_substitution
+25,"DNA stands for deoxyribonucleic acid. It carries genetic instructions for the development of living organisms.","DNA carries genetic information.",0,none
+26,"DNA stands for deoxyribonucleic acid. It carries genetic instructions for the development of living organisms.","DNA stands for dinitrogen acid and stores energy.",1,contradiction
+27,"The first moon landing occurred on July 20, 1969, when Neil Armstrong and Buzz Aldrin landed on the lunar surface.","Neil Armstrong walked on the moon in 1969.",0,none
+28,"The first moon landing occurred on July 20, 1969, when Neil Armstrong and Buzz Aldrin landed on the lunar surface.","The first moon landing was in 1972 by John Glenn.",1,entity_substitution
+29,"Earth's atmosphere is composed of approximately 78% nitrogen and 21% oxygen.","Earth's atmosphere is mostly nitrogen.",0,none
+30,"Earth's atmosphere is composed of approximately 78% nitrogen and 21% oxygen.","Earth's atmosphere is 50% oxygen and 50% carbon dioxide.",1,numerical_error
+31,"The Amazon River is the largest river by discharge volume of water in the world. It flows through South America.","The Amazon is the largest river by volume.",0,none
+32,"The Amazon River is the largest river by discharge volume of water in the world. It flows through South America.","The Nile is the largest river by discharge volume.",1,entity_substitution
+33,"Vaccines work by stimulating the immune system to recognize and fight specific pathogens.","Vaccines help the body recognize pathogens.",0,none
+34,"Vaccines work by stimulating the immune system to recognize and fight specific pathogens.","Vaccines are antibiotics that kill bacteria directly.",1,contradiction
+35,"The boiling point of water decreases at higher altitudes due to lower atmospheric pressure.","Water boils at a lower temperature at high altitudes.",0,none
+36,"The boiling point of water decreases at higher altitudes due to lower atmospheric pressure.","Water boils at a higher temperature on mountains.",1,contradiction

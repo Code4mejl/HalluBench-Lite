@@ -1,0 +1,49 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model caches & Hugging Face
+.cache/
+*.bin
+*.safetensors
+models/
+sentence-transformers/
+transformers_cache/
+.huggingface/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Streamlit / secrets
+.streamlit/secrets.toml
+secrets.toml
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Generated outputs (keep data/ sample only)
+outputs/
+*.log
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
