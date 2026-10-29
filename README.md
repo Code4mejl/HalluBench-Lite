@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HalluBench Lite
 
 **Lightweight research dashboard for benchmarking hallucination-detection methods**
@@ -237,3 +238,6 @@ This project is an **independent lightweight comparison**, not an official repro
 ## License
 
 Educational / research prototype. Use at your own discretion.
+=======
+# HalluBench-Lite
+>>>>>>> 253ebadbd95236f1bcf90367fc5439de1f3a75ac
